@@ -67,6 +67,9 @@ size = Vector2(16, 8)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sgl2t"]
 size = Vector2(8, 19)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qouja"]
+size = Vector2(10, 20)
+
 [node name="Game" type="Node2D" unique_id=516300374]
 script = ExtResource("1_lbhrr")
 
@@ -278,6 +281,10 @@ shape = SubResource("RectangleShape2D_sgl2t")
 [node name="CollisionShape2D23" type="CollisionShape2D" parent="Objects/Stuff/StaticBody2D" unique_id=1335324203]
 position = Vector2(45, -258)
 shape = SubResource("RectangleShape2D_sgl2t")
+
+[node name="CollisionShape2D24" type="CollisionShape2D" parent="Objects/Stuff/StaticBody2D" unique_id=1348564977]
+position = Vector2(-153, 248)
+shape = SubResource("RectangleShape2D_qouja")
 
 [node name="Taxi" type="Sprite2D" parent="Objects/Stuff" unique_id=464217225]
 position = Vector2(-112, 64)
